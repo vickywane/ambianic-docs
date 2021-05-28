@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Installing and Running Ambianic - Ambianic Documentation</title>
+        <title>Ambianic Premium Services - Ambianic Documentation</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -152,7 +152,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a href="https://github.com/ambianic/ambianic-docs/edit/master/docs-md/users/install.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/ambianic/ambianic-docs/edit/master/docs-md/users/premium-services.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -170,24 +170,88 @@
 
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column bs-sidenav">
-            <li class="nav-item main"><a href="#installing-and-running-ambianic">Installing and Running Ambianic</a></li>
+            <li class="nav-item main"><a href="#ambianic-premium-services">Ambianic Premium Services</a></li>
+                <li class="nav-item">
+                    <a href="#user-management" class="nav-link">User Management</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#premium-notifications" class="nav-link">Premium Notifications</a>
+                </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="installing-and-running-ambianic">Installing and Running Ambianic</h1>
+<h1 id="ambianic-premium-services">Ambianic Premium Services</h1>
+<p>Ambianic Premium Services provide added value and convenience, such as Premium Notifications that minimize the effort required to integrate with third party cloud services. <br /> <br />
+Ambianic Premium Services can be accessed by creating a user account through the <a href="https://github.com/ambianic/ambianic-ui">Ambianic PWA</a> and selecting a paid subscription plan.
+<br />
+<br /></p>
+<h2 id="user-management">User Management</h2>
+<p>You only need to create an Ambianic Premium Service account once through the <a href="https://github.com/ambianic/ambianic-ui">Ambianic PWA</a>, You can then sign in to your Ambianic account from any other client device you own..</p>
+<p>The following steps highlight the process for creating an Ambianic Premium Service account.</p>
+<ul>
+<li>
+<p>From the <a href="https://github.com/ambianic/ambianic-ui">Ambianic PWA</a> NavBar, click the <b>UPGRADE TO PREMIUM</b> button to navigate to the authentication page where you provide your Name, Email and Password details to either create a new account or Sign in to an existing account. Existing Social accounts such as a <a href="https://www.google.com/">Google</a>, <a href="https://www.apple.com/ng/">Apple</a>, <a href="https://www.facebook.com/">Facebook</a> and <a href="https://github.com/">GitHub</a> can also be used to quickly create an Ambianic Account. </p>
+<p><img alt="Authentication page" src="../../assets/images/signup-screen.png" /></p>
+</li>
+</ul>
+<p>With an account created using the step above, you can now purchase the Ambianic Premium Subscription on your account and manage it through the <a href="https://github.com/ambianic/ambianic-ui">Ambianic PWA</a>.</p>
+<h3 id="user-subscription">User Subscription</h3>
+<p>Premium services within Ambianic are made available to users with an active subscription.
+This subscription which is associated with a user's account, costs a fixed price of <b> $5 dollar</b> and is billed <b> every month </b> on a recurring basis. </p>
+<p>The following steps below highlight the process of purchasing a subscription for your user account using the PWA;</p>
 <ol>
-<li>Quickstart reference</li>
-<li>Various install scenarios: CPU, OS matrix</li>
-</ol></div>
+<li>
+<p>From the <a href="https://github.com/ambianic/ambianic-ui">Ambianic PWA</a> NavBar, click the avatar of the logged-in user to open the user management dropdown modal.</p>
+<p><img alt="User Management Menu" src="../../assets/images/user-management-menu.png" /></p>
+</li>
+<li>
+<p>Click the <b>Add Premium Subscription </b> text within the user management dropdown to open the Premium Subscription modal. 
+    <img alt="Premium Subscription Menu" src="../../assets/images/premium-subscription-menu.png" />                      </p>
+</li>
+<li>
+<p>Input your credit card details into the appropriate fields within the Premium Subscription modal and confirm the details to purchase the subscription.</p>
+</li>
+</ol>
+<p>You can view all details about your purchased subscription by clicking the user avatar to open the User Management Dropdown modal. 
+These details include <code>Subscription name</code>, <code>expiry date</code>, and <code>subscription status</code>.
+ <img alt="User Management Bar With Subscription" src="../../assets/images/subscription-bar.png" /> </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Premium subscriptions would be automatically renewed after expiry, if unsuccessful,
+a <b>Renew</b> button would be provided in the User Management Dropdown, with which you can use to manually renew your subscription.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Clicking the <b>Cancel</b> button would stop the automatic renewal of an active subscription and delete the subscription from the user's account after it's expiry.     </p>
+</div>
+<h2 id="premium-notifications">Premium Notifications</h2>
+<p>Premium Notifications provides a subscribed user with the feature of receiving notifications about event detections directly from the running edge device, even when not connected to the <a href="https://github.com/ambianic/ambianic-ui">Ambianic PWA</a>.
+<br />
+<br />
+Rather than manually configuring this functionality, Premium Notifications automatically configures the connected Edge Device with Ambianic bearing the costs incurred when notifications are sent.   </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Currently, notifications are sent via email messages to the subscribed user's email address. 
+However, there are <a href="https://github.com/ambianic/ambianic-subscriptions/issues/15">plans</a> to also deliver premium notifications via SMS.</p>
+</div>
+<p><br /></p>
+<h3 id="configuring-premium-notifications-on-edge-device">Configuring Premium Notifications on Edge Device</h3>
+<p>The process to configure the Premium Notifications feature is automatically initiated after a successful subscription or after a previously subscribed user is authenticated with their existing Ambianic Account.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The Edge Device is what is configured by the Ambianic PWA, hence a running Edge Device must be connected before the configuration process can be initiated. </p>
+</div>
+<p>During the configuration process, the Ambianic PWA displays the Edge Configuration modal as shown below and informs the connected Edge Device where the notifications should be sent to.</p>
+<p><img alt="Edge Device Sync" src="../../assets/images/ambianic-edge-sync.png" />  </p></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
                 <p>Ambianic.ai &copy; 2019-2021</p>
-            <p>Last update : 2021-05-28 19:12:28.406066+00:00</p>
+            <p>Last update : 2021-05-28 19:12:28.414716+00:00</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
