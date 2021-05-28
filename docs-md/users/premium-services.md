@@ -12,7 +12,7 @@ The following steps highlight the process for creating an Ambianic Premium Servi
 
 - From the [Ambianic PWA](https://github.com/ambianic/ambianic-ui) NavBar, click the <b>UPGRADE TO PREMIUM</b> button to navigate to the authentication page where you provide your Name, Email and Password details to either create a new account or Sign in to an existing account. Existing Social accounts such as a [Google](https://www.google.com/), [Apple](https://www.apple.com/ng/), [Facebook](https://www.facebook.com/) and [GitHub](https://github.com/) can also be used to quickly create an Ambianic Account. 
                                                                                                                     
-    ![Authentication page](../assets/images/signup-screen.png)
+    ![User Authentication page](../assets/images/signup-screen.png)
 
 With an account created using the step above, you can now purchase the Ambianic Premium Subscription on your account and manage it through the [Ambianic PWA](https://github.com/ambianic/ambianic-ui).
                         
